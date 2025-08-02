@@ -1,0 +1,50 @@
+Files requested: ['example_left.json', 'example_middle.json', 'example_right.json', 'fake_file.json']
+fake_file.json is missing; skipping it.
+Files used: example_left.json, example_middle.json, example_right.json
+Usage rates for ['i']:
+	32.184% for persuasive texts
+	0.000% for nonpersuasive texts
+Usage rates for ['i', 'me', 'my', 'mine']:
+	32.184% for persuasive texts
+	0.000% for nonpersuasive texts
+Usage rates for ['you']:
+	0.000% for persuasive texts
+	31.579% for nonpersuasive texts
+Usage rates for ['you', 'your', 'yours']:
+	0.000% for persuasive texts
+	31.579% for nonpersuasive texts
+Usage rates for ['we', 'us', 'our', 'ours']:
+	0.000% for persuasive texts
+	0.000% for nonpersuasive texts
+Usage rates for ['we']:
+	0.000% for persuasive texts
+	0.000% for nonpersuasive texts
+Usage rates for ['delta']:
+	0.000% for persuasive texts
+	0.000% for nonpersuasive texts
+
+
+Files requested: ['1k2kc3t_grocery_music.json', '2rpvc7_bench_clearing.json', '3mzc6u_tontine.json', '7xirrw_fisking.json', 'bd2zne_contribute.json', 'et9kvt_amazon.json', '5y58tv_grass.json']
+Files used: 1k2kc3t_grocery_music.json, 2rpvc7_bench_clearing.json, 3mzc6u_tontine.json, 7xirrw_fisking.json, bd2zne_contribute.json, et9kvt_amazon.json, 5y58tv_grass.json
+Usage rates for ['i']:
+	1.582% for persuasive texts
+	1.330% for nonpersuasive texts
+Usage rates for ['i', 'me', 'my', 'mine']:
+	1.904% for persuasive texts
+	1.748% for nonpersuasive texts
+Usage rates for ['you']:
+	1.727% for persuasive texts
+	1.679% for nonpersuasive texts
+Usage rates for ['you', 'your', 'yours']:
+	2.114% for persuasive texts
+	2.183% for nonpersuasive texts
+Usage rates for ['we', 'us', 'our', 'ours']:
+	0.242% for persuasive texts
+	0.835% for nonpersuasive texts
+Usage rates for ['we']:
+	0.226% for persuasive texts
+	0.515% for nonpersuasive texts
+Usage rates for ['delta']:
+	0.581% for persuasive texts
+	0.019% for nonpersuasive texts
+

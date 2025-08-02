@@ -1,0 +1,78 @@
+llee A3 > python a3_app.py
+Welcome to the Tre1110 planner!
+Here, you can plan out the next week (from Sunday - Saturday).
+Type 'print <day>' to view your schedule for that day, or 'print all'
+to view your whole week at once.
+To add a task to the planner, type 'add task'.
+Type 'q' to quit.
+What would you like to do?
+> add task
+What is the name of your task?
+> finish the assignment writeup
+How many hours will your task take (integers please)?
+> 1
+What day would you like to add this task to?
+> Monday
+What hour will your task start (24 hour time please)?
+> 1
+Successfully added!
+What would you like to do now? (add task, print <day>, print all, q)
+> add task
+What is the name of your task?
+> answer DUS emails
+How many hours will your task take (integers please)?
+> 2
+What day would you like to add this task to?
+> Monday
+What hour will your task start (24 hour time please)?
+> 1
+Sorry, couldn't add it to your schedule at that time!
+What would you like to do now? (add task, print <day>, print all, q)
+> add task
+What is the name of your task?
+> answer DUS emails
+How many hours will your task take (integers please)?
+> 2
+What day would you like to add this task to?
+> Monday
+What hour will your task start (24 hour time please)?
+> 14
+Successfully added!
+What would you like to do now? (add task, print <day>, print all, q)
+> add task
+What is the name of your task?
+> meet with chair
+How many hours will your task take (integers please)?
+> 1
+What day would you like to add this task to?
+> Tuesday
+What hour will your task start (24 hour time please)?
+> 13
+Successfully added!
+What would you like to do now? (add task, print <day>, print all, q)
+> print all
+Sunday:
+No events scheduled.
+
+Monday:
+1:00-2:00 finish the assignment writeup
+14:00-16:00 answer DUS emails
+
+Tuesday:
+13:00-14:00 meet with chair
+
+Wednesday:
+No events scheduled.
+
+Thursday:
+No events scheduled.
+
+Friday:
+No events scheduled.
+
+Saturday:
+No events scheduled.
+
+What would you like to do now? (add task, print <day>, print all, q)
+> q
+Goodbye and good luck getting all your tasks done!

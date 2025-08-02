@@ -1,0 +1,94 @@
+[
+  {
+    "kind": "Listing",
+    "data": {
+      "children": [
+        {
+          "kind": "t3",
+          "data": {
+            "selftext": "sample top-level post",
+            "name": "0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Listing",
+    "data": {
+      "children": [
+        {
+          "kind": "t1",
+          "data": {
+            "name": "1",
+            "author": "author of 1",
+            "body": "Text of child one: nonper nonper nonper nonper you you you you",
+            "parent_id": "-skip-",
+            "replies": {
+              "kind": "Listing",
+              "data": {
+                "children": [
+                  {
+                    "kind": "t1",
+                    "data": {
+                      "name": "1.1",
+                      "author": "author of 1.1",
+                      "body": "text of One dot One: nonper nonper nonper nonper you you you you",
+                      "parent_id": "-skip-",
+                      "replies": ""
+                    }
+                  },
+                  {
+                    "kind": "t1",
+                    "data": {
+                      "name": "1.2",
+                      "author": "author of 1.2",
+                      "body": "text of One dot Two: nonper nonper nonper nonper you you you you",
+                      "parent_id": "-skip-",
+                      "replies": ""
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "kind": "t1",
+          "data": {
+            "name": "2",
+            "author": "DeltaBot",
+            "body": "text of child two: per per per per i i i i",
+            "replies": {
+              "kind": "Listing",
+              "data": {
+                "children": [
+                  {
+                    "kind": "t1",
+                    "data": {
+                      "name": "2.1",
+                      "author": "author of 2.1",
+                      "body": "text of Two dot Two: bad bad bad bad",
+                      "parent_id": "-skip-",
+                      "replies": ""
+                    }
+                  },
+                  {
+                    "kind": "t1",
+                    "data": {
+                      "name": "2.2",
+                      "author": "author of child 2.2",
+                      "body": "text of two dot two: bad bad bad bad",
+                      "parent_id": "-skip-",
+                      "replies": ""
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

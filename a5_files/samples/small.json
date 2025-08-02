@@ -1,0 +1,84 @@
+[
+  {
+    "kind": "Listing",
+    "data": {
+      "children": [
+        {
+          "kind": "t3",
+          "data": {
+            "selftext": "sample top-level post",
+            "name": "0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Listing",
+    "data": {
+      "children": [
+        {
+          "kind": "t1",
+          "data": {
+            "name": "1",
+            "author": "author of 1",
+            "body": "Text of child one",
+            "parent_id": "-skip-",
+            "replies": {
+              "kind": "Listing",
+              "data": {
+                "children": [
+                  {
+                    "kind": "t1",
+                    "data": {
+                      "name": "1.1",
+                      "author": "author of 1.1",
+                      "body": "text of One dot One",
+                      "parent_id": "-skip-",
+                      "replies": ""
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "kind": "t1",
+          "data": {
+            "name": "2",
+            "author": "author of child 2",
+            "body": "text of child two",
+            "replies": {
+              "kind": "Listing",
+              "data": {
+                "children": [
+                  {
+                    "kind": "t1",
+                    "data": {
+                      "name": "2.1",
+                      "author": "DeltaBot",
+                      "body": "text of two dot one",
+                      "parent_id": "-skip-",
+                      "replies": ""
+                    }
+                  },
+                  {
+                    "kind": "t1",
+                    "data": {
+                      "name": "2.2",
+                      "author": "author of child 2.2",
+                      "body": "text of two dot two",
+                      "parent_id": "-skip-",
+                      "replies": ""
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,23 @@
+>>> c1 = _Counter()
+>>> print(c1)
+[]
+>>> c2 = _Counter(["hi", "there", "hi"]
+>>> print(c2)
+[['hi', 'there', 'hi']]
+>>> c3 = _Counter(["hi", "again"])
+>>> c1.update(c2)
+>>> print(c1)
+[['hi', 'there', 'hi']]
+>>> c1.update(c3)
+>>> print(c1)
+[['hi', 'there', 'hi'], ['hi', 'again']]
+>>> print(repr(c1))
+_Counter({'hi': 3, 'there': 1, 'again': 1})
+>>> new = Counter(["new"])
+>>> print(new)
+Counter({'new': 1})
+>>> c1.update(new)
+>>> print(c1)
+[['hi', 'there', 'hi'], ['hi', 'again']]
+>>> print(repr(c1))
+_Counter({'hi': 3, 'there': 1, 'again': 1, 'new': 1})
